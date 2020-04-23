@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "PORT=3000 nuxt start",
+    "start": "cross-env BASE_URL=http://12380.com NODE_ENV=production  nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {

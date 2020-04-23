@@ -1,13 +1,13 @@
 <template>
   <swiper class="swiper">
     <swiper-item>
-      <img src="http://localhost:3000/upload/swiper/155317-1507103597a2cf.jpg" :class="{backopacity:$store.state.todos.themeStyle}" @click="$router.push()" alt />
+      <img src="http://12380ch.com/upload/swiper/155317-1507103597a2cf.jpg" :class="{backopacity:$store.state.todos.themeStyle}" @click="$router.push()" alt />
     </swiper-item>
     <swiper-item>
-      <img src="http://localhost:3000/upload/swiper/chrome_jc.jpg" :class="{backopacity:$store.state.todos.themeStyle}"  @click="$router.push()" alt />
+      <img src="http://12380ch.com/upload/swiper/chrome_jc.jpg" :class="{backopacity:$store.state.todos.themeStyle}"  @click="$router.push()" alt />
     </swiper-item>
     <swiper-item>
-      <img src="http://localhost:3000/upload/swiper/maxresdefault.jpg" :class="{backopacity:$store.state.todos.themeStyle}" @click="$router.push('/jiaocheng')" alt />
+      <img src="http://12380ch.com/upload/swiper/maxresdefault.jpg" :class="{backopacity:$store.state.todos.themeStyle}" @click="$router.push('/jiaocheng')" alt />
     </swiper-item>
   </swiper>
 </template>
