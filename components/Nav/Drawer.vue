@@ -13,7 +13,7 @@
         size="80%"
         close-on-press-escape>
         <nav-bar-parent @click.native="hiddenDrawer" :fontw="true" path="/"><span class="icon-home"></span><span>首页</span></nav-bar-parent>
-            <nav-bar-parent  :fontw="true" path="/category/3" @click.native="hiddenDrawers" ><span class="icon-home"></span><span>软件</span></nav-bar-parent>
+            <nav-bar-parent  :fontw="true" path="/category/3" @click.native="hiddenDrawers" ><span class="icon-home"></span><span>插件</span></nav-bar-parent>
             <nav-bar-item @click.native="hiddenDrawer" path="/category" ref="navbaritem" :category="category">
             </nav-bar-item>
             <nav-bar-parent @click.native="hiddenDrawer" :fontw="true" path="/jiaocheng"><span class="icon-home"></span><span>教程</span></nav-bar-parent>

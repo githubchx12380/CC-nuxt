@@ -14,7 +14,7 @@
   <el-col :span="12" class="right">
       <div class="grid-content bg-purple-light">
           <div class="form-nav">
-              <input type="text" placeholder="搜索软件" v-model="model.val">
+              <input type="text" placeholder="搜索插件" v-model="model.val">
               <button class="icon-search" @click="formNavsubmit"></button>
           </div>
       </div>

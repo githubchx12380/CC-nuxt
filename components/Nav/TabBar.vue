@@ -8,7 +8,7 @@
         </nav-bar-parent>
         <nav-bar-parent :fontw="true" path="/category/3" @click.native="currentinit">
           <span class="icon-home"></span>
-          <span>软件</span>
+          <span>插件</span>
         </nav-bar-parent>
         <nav-bar-item path="/category" ref="navbaritem" :category="category"></nav-bar-item>
         <nav-bar-parent :fontw="true" path="/jiaocheng">

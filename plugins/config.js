@@ -1,6 +1,6 @@
 import axios from 'axios'
 const http = axios.create({
-    baseURL:'http://12380ch.com'
+    baseURL:'https://node.12380ch.com'
 })
 
 
